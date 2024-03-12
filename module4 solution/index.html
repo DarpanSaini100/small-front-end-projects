@@ -1,0 +1,72 @@
+<!-- Assignment: Front end Module 4 Problem stement -->
+<!-- Author: Darpan Saini -->
+<!-- Date: [Current Date] -->
+<!-- Description: This HTML document is part of the Front end Module 1 Problem stement. -->
+<!-- Each section is structured according to the design specifications. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Calculator</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" class="css">
+ 
+</head>
+<body>
+
+<div class="continer">
+  <h2 class="text-center" style="margin: 10px;">JavaScript Calculator</h2>
+
+<!-- main body -->
+
+  <div class="row g-3" style="margin-top: 20px;">
+    <div class="col">
+      <label for="num1">Number 1:</label>
+      <input
+        type="number"
+        class="form-control"
+        id="num1"
+        placeholder="Enter number"
+      />
+    </div>
+    <div class="col">
+      <label for="operator">Operator:</label>
+      <select class="form-control" id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+    </div>
+    <div class="col">
+      <label for="num2">Number 2:</label>
+      <input
+        type="number"
+        class="form-control"
+        id="num2"
+        placeholder="Enter number"
+      />
+    </div>
+  </div>
+  
+  <button type="button" class="btn btn-primary"  onclick="calculate()">
+    Calculate
+  </button>
+ <div class="result">
+  <label for="result" id="rlabel">Result:</label>
+  <input type="text" class="form-control" id="result" readonly />
+  <div>
+  </div>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- Include separate JavaScript file -->
+<script src="calculator.js"></script>
+
+</body>
+</html>

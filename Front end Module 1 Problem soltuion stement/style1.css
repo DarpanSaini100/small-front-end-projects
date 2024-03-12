@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow: auto;
+  min-height: 100vh;
+  background: url("background.jpg") no-repeat;
+  background-size: cover;
+}
+
+.header{
+  mask-position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  padding: 20px 100px;
+  background: transparent;
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100%;
+}
+
+.logo{
+  font-size: 32px;
+  color:black;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar a {
+  font-size: 28px;
+  color:black;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+
+}
+.gallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding:50px;
+}
+
+.gallery img {
+  width: 300px; 
+  margin: 10px;
+  border: 1px solid #e99393; 
+  border-radius: 5px; 
+  height: 300px;
+  object-fit: cover;
+}
+
+#bottomIframe {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 300px; 
+  border: none; 
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+.fp{
+  text-align: center;
+}
+
+.contactfiled{
+  margin-top: 20px;
+  padding:50px;
+  width: 500px;
+  margin-left: 500px;
+  backdrop-filter: blur(20px);
+
+}
+
+#heading{
+  text-align: center;
+  
+}
+
+.formto{
+  display: grid;
+  margin-top: 20px;
+  gap:10px;
+}
+
+label{
+  font-weight: bold;
+}
+
+#submit{
+  align-items: center;
+  margin-top: 20px;
+}
+
+.intro{
+  border-radius: 5px;
+  padding: 30px;
+ margin-left: 50px;
+ margin-top: 20px;
+ width: 700px;
+ backdrop-filter: blur(10px);
+}
+
+.pabout{
+  color:antiquewhite;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+table{
+  backdrop-filter: blur(10px);
+}
+
+table,td,th{
+  color:aliceblue;
+  margin-left: 40% ;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 20px;
+}
+

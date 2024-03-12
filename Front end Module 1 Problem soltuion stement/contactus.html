@@ -1,0 +1,47 @@
+<!-- Assignment: Front end Module 1 Problem stement -->
+<!-- Author: Darpan Saini -->
+<!-- Date: [Current Date] -->
+<!-- Description: This HTML document is part of the Front end Module 1 Problem stement. -->
+<!-- Each section is structured according to the design specifications. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header class="header">
+        <a class="logo">Haridwara Tourism</a>  
+        <nav class="navbar">
+
+        
+            <a href="index.html">Home</a>
+            <a href="Aboutus.html">About</a>
+            <a href="contactus.html">Contact</a>
+            <a href="climate.html">Climate</a>    
+          </nav>
+        </header>
+<!--this div contain a form for contact us-->
+        <div class="contactfiled">
+
+            <h1 id="heading">Contact us</h1>
+
+            <form class="formto" action="submit_form.php" method="post">
+                <label >Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Full Namne">
+                <label >Email:</label>
+                <input type="text" id="email" name="Email" required placeholder="Email">
+                <label >Cityname:</label>
+                <input type="text" id="city" name="cityname" required placeholder="City Namne">
+                <label >Message:</label>
+                <textarea id="message" name="message" row="4" required placeholder="wright a message"></textarea>
+                
+            </form>
+            <button id="submit" type="button">Submit</button>
+        </div>
+   
+</body>
+</html>

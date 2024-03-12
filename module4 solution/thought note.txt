@@ -1,0 +1,10 @@
+Dear sir,
+
+I trust this note finds you well. Attached is my HTML and css code for the Front end Module 4 Problem stement. Each element has been carefully structured as per the design specifications. I have included comments within the HTML for clarity and easy understanding. Your feedback on the structure and overall user experience is highly appreciated.
+
+If you have any questions or suggestions, please don't hesitate to reach out. Thank you for your time and guidance.
+
+Best regards,
+[Darpan Saini]
+
+
